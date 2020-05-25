@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="index.css" />
+  
+
+</head>
+
+
+  
+  <body onload="loadFunc()">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Take The Coding Bootcamp Quiz!</h1> <br>
+            <p class="lead"><div id="question">Commonly used data types DO NOT include:</div></p>
+             <br>
+             
+            <hr class="my-4">
+
+            <a class="btn btn-primary btn-lg" id="answer1" href="#" role="button">strings</a>
+
+            <a class="btn btn-primary btn-lg" id="answer2" href="#" role="button">booleans</a>
+
+            <a class="btn btn-primary btn-lg" id="answer3" href="#" role="button">alerts</a>
+
+            <a class="btn btn-primary btn-lg" id="answer4" href="#" role="button">numbers</a>
+            
+            <div class="error-messages" style="display:none;"></div>
+           
+            <div>
+            <br>
+            Time Remaining
+            <br>  
+            <span id="countdown" style="float: center;"></span></div>
+        </div>
+        
+        <br>
+
+        <div>
+            <h3 id="score"> Score:</h3>
+        </div>
+       
+        <div id="results"></div>
+
+        <!-- View Highscore - to the left top of page -->
+
+
+        <!-- <h3> High Score </h3> -->
+        <!-- Timer to the right side of page-->
+        <!-- <h4>Timer:</h4> -->
+
+    </div>
+
+
+    </div>
+
+
+ 
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <script src="questions.js"></script>
+    
+    <script src="index.js"></script>
+
+</body>
+
+</html>
+
+
